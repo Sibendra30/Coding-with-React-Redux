@@ -1,0 +1,46 @@
+Create a Buy-Sell Shares app:
+1. Create Profile
+2. Login with existing profile
+3. See list of available Shares
+4. User can select some share and buy
+5. See List of holdings
+6. Sell shares
+7. Delete Profiles
+
+Schemas:
+User Profile
+Name:
+Age:
+Address:
+User Type:
+Gender:
+Username:
+
+UserHoldingData:
+userName:
+shareCode:
+shareCount:
+createdTime:
+lastUpdatedTime:
+
+financialInfo:
+userName:
+balance:
+createdDate:
+lastUpdated:
+lastUpdateDesc:
+isLocked:
+
+Login Data:
+username:
+password (hashed formatted data)
+lastLogin:
+badLoginCount:
+isLocked:
+reason:
+
+Shares
+shareCode:
+availableCount:
+isLocked:
+price:
